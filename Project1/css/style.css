@@ -1,0 +1,266 @@
+body{
+    background-color: #ddd;
+}
+* {
+    box-sizing: border-box;
+  }
+
+textarea{
+    width: 99%;
+    height: 80px;
+    background-color: #fff;
+    resize: none;
+}
+button{
+    width: 99px;
+    height: 30px;
+    background-color: #484494;
+    border: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-bottom: 6px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+  ul {
+    list-style-type: none;
+}
+table, td, th {
+  border: 1px solid;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.comment-box {
+    width: 99%;
+    padding: 20px;
+    margin-bottom: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+    position: relative;
+}
+.comment-box  p {
+    font-family: arial;
+    font-size: 14px;
+    line-height: 16px;
+    color: #282828;
+    font-weight: 99;
+}
+.assignment-box {
+    width: 99%;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-top: 20px;
+    position: relative;
+}
+.assignment-box  p {
+    font-family: arial;
+    font-size: 14px;
+    line-height: 16px;
+    color: #282828;
+    font-weight: 99;
+}
+
+.work-box{
+    width: 280px;
+    margin-top: 20px;
+}
+.delete-form {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+
+.delete-form button {
+    width: 40px;
+    height: 20px;
+    color: #282828;
+    background-color: #fff;
+    opacity: 0.7;
+}
+
+.delete-form button:hover {
+
+    opacity: 1;
+}
+
+.container{
+}
+.container-body{
+    height:700px;
+    margin-left: -60px;
+    margin-top: 20px;
+    width: 115%;
+}
+.assignment{
+    /* background-color: #fff; */
+    float: left;
+    width: 70%;
+    height: 700px;
+}
+.submit{
+    /* background-color: #fff; */
+    float: right;
+    width: 30%;
+    height: 650px;
+}
+.workGv {
+    background-color: #fff;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+ .workGv:hover {
+    color: #866ec7; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+  .loginPopup {
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  .formPopup {
+    display: none;
+    position: fixed;
+    left: 45%;
+    top: 5%;
+    transform: translate(-50%, 5%);
+    border: 3px solid #999999;
+    z-index: 9;
+  }
+  .formContainer {
+    max-width: 300px;
+    padding: 20px;
+    background-color: #fff;
+  }
+  .panel2 {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+  .loginPopup2 {
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  .formPopup2 {
+    display: none;
+    position: fixed;
+    left: 45%;
+    top: 5%;
+    transform: translate(-50%, 5%);
+    border: 3px solid #999999;
+    z-index: 9;
+  }
+  .formContainer2 {
+    max-width: 300px;
+    padding: 20px;
+    background-color: #fff;
+  }
+  .panel3 {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+  .loginPopup3 {
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  .formPopup3 {
+    display: none;
+    position: fixed;
+    left: 45%;
+    top: 5%;
+    transform: translate(-50%, 5%);
+    border: 3px solid #999999;
+    z-index: 9;
+  }
+  .formContainer3 {
+    width: 600px;
+    padding: 20px;
+    background-color: #fff;
+  }
+  .formPopup3 label{
+    float:left;
+    color: #000;
+  }
+  .panel4 {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+  .loginPopup4 {
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  .formPopup4 {
+    display: none;
+    position: fixed;
+    left: 45%;
+    top: 5%;
+    transform: translate(-50%, 5%);
+    border: 3px solid #999999;
+    z-index: 9;
+  }
+  .formContainer4 {
+    width: 600px;
+    padding: 20px;
+    background-color: #fff;
+  }
+  .formPopup4 label{
+    float:left;
+    color: #000;
+  }
+.userform1{
+    width: 50%;
+    height: 500px;
+    background-color: #fff;
+    margin-top: 50px;
+    margin-left: 20%;
+}
+.userform1 input{
+    float: right;
+    width: 70%;
+    margin-right: 30px;
+}
+.userform1 button{
+    margin-left: 70%;
+}
+.userform1 h1{
+    text-align: center;
+}
+.dssv1{
+
+}
